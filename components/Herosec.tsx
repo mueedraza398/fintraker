@@ -33,7 +33,7 @@ function Herosec() {
                                         <FaArrowRight />
                                     </div>
                                 </Link>
-                                <button className=' px-8 py-3 rounded-md border '>Learn More </button>
+                                <Link className=' px-8 py-3 rounded-md border '  href="about">Learn More </Link>
                             </div>
                         </div>
 
