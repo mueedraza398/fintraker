@@ -1,11 +1,10 @@
-import Herosec from '@/components/Herosec'
+import Register from '@/components/Register'
 import React from 'react'
-
 
 function page() {
   return (
     <div>
-      <Herosec/>
+        <Register/>
     </div>
   )
 }
