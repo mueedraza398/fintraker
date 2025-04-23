@@ -27,12 +27,12 @@ function Herosec() {
                             <h1 className='text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none'> Manage Your  <br />Finances Across <br /> Currencies</h1>
                             <p className='max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400'>Track balances, transfer funds, and monitor currency rates all in one secure platform.</p>
                             <div className='flex gap-3'>
-                                <button className='bg-emerald-700 px-8 py-3 rounded-md text-white  '>
+                                <Link className='bg-emerald-700 px-8 py-3 rounded-md text-white  ' href="register">
                                     <div className='flex items-center gap-2'>
                                         <span>Get Started </span>
                                         <FaArrowRight />
                                     </div>
-                                </button>
+                                </Link>
                                 <button className=' px-8 py-3 rounded-md border '>Learn More </button>
                             </div>
                         </div>
