@@ -1,7 +1,7 @@
 // components/ApplicationComponents.tsx
 
 import React from "react";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const modules = [
   {
@@ -251,6 +251,12 @@ const ApplicationComponents = () => {
         </div>
       </div>
     </div>
+    <div className="flex py-8 justify-center">
+          <button className="bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium py-4 px-6 rounded-md  flex items-center gap-2">
+            Create Your Account Today
+            <ArrowRight className="h-4 w-4" />
+          </button>
+        </div>
     </section>
   );
 };

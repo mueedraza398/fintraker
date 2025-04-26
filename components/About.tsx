@@ -12,6 +12,8 @@ import Testimonials from './Tabs/Testimonials';
 import FeatureTab from "./Tabs/FeatureTab";
 import GetStartedSteps from './Tabs/GetStartedSteps';
 import ApplicationComponents from './Tabs/ApplicationComponents';
+import TechnologiesSection from './Tabs/TechnologiesSection';
+import Footer from './Footer';
 
 
 
@@ -128,11 +130,14 @@ function About() {
           <TabsContent value="Name">
           <ApplicationComponents/>
           </TabsContent>
-          <TabsContent value="Tech-Stack">Make changes to          ---------your account here.</TabsContent>
+          <TabsContent value="Tech-Stack">
+          <TechnologiesSection />
+          </TabsContent>
 
         </Tabs>
 
       </div>
+      <Footer/>
 
     </div>
   )
