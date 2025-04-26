@@ -41,6 +41,9 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 }
+body{
+  font-family:var(--font-inter), sans-serif;
+}
 
 :root {
   --radius: 0.625rem;
