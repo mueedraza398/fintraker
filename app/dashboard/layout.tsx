@@ -41,14 +41,22 @@ export default function RootLayout({
         <html lang="en" className={inter.variable}>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+
             >
-                    <Dashnav/>
-                    <Sidebar/>
-                   <Dashborad/>
-                    
-                <div>
-                    {children}
-                </div>
+
+
+<div className="">
+        <Dashnav/>
+    </div>
+
+    <div className="grid grid-cols-5 grid-rows-5 gap-4">
+    <div className="row-span-5"><Sidebar/></div>
+    <div className="col-span-4 row-span-5">{children}</div>
+</div>
+        
+
+
+
             </body>
         </html>
     );

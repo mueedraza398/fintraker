@@ -5,7 +5,7 @@ import { LuDollarSign } from 'react-icons/lu'
 const Dashnav = () => {
   return (
     <div>
-        <div className="container flex h-16 items-center justify-between px-4">
+        <div className=" flex h-16 items-center justify-between px-4 w-full">
             <div className="flex items-center gap-2">
                 <a className="flex items-center gap-2" href="/dashboard">
                     <p className="text-xl text-emerald-700"><LuDollarSign /></p>

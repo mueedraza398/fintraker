@@ -8,23 +8,24 @@ import { LuChartColumnDecreasing } from "react-icons/lu";
 import { FiRefreshCw } from "react-icons/fi";
 import { IoMdContacts } from "react-icons/io";
 import { CiSettings } from "react-icons/ci";
+import Link from 'next/link';
 const Sidebar = () => {
   return (
     <div>
-      <div className="flex flex-col p-4 w-60 min-h-screen bg-white border-r">
+      <div className="flex flex-col p-4 w-64 min-h-screen bg-white border-r">
   <nav className="flex flex-col gap-2">
     
     {/* Dashboard */}
-    <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+    <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
     <CiHome />
       <span>Dashboard</span>
-    </a>
+    </Link>
 
     {/* Balances - Active */}
-    <a href="#" className="flex items-center gap-3 p-2 rounded-md  text-gray-600 font-medium">
+    <Link href="#" className="flex items-center gap-3 p-2 rounded-md  text-gray-600 font-medium">
     <FiDollarSign />
       <span>Balances</span>
-    </a>
+    </Link>
 
     {/* Transactions */}
     <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
@@ -42,26 +43,26 @@ const Sidebar = () => {
     </a>
 
     {/* Withdraw */}
-    <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+    <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
     <FiRefreshCw />
       <span>Withdraw</span>
-    </a>
+    </Link>
 
     {/* Currency Rates */}
-    <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+    <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
     <LuChartColumnDecreasing />
       <span>Currency Rates</span>
-    </a>
+    </Link>
 
     {/* Contacts */}
-    <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+    <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
     <IoMdContacts />      <span>Contacts</span>
-    </a>
+    </Link>
 
     {/* Settings */}
-    <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+    <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
     <CiSettings />      <span>Settings</span>
-    </a>
+    </Link>
 
   </nav>
 </div>
