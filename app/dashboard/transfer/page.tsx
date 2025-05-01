@@ -17,7 +17,7 @@ const page = () => {
         
             </div>
 
-            <Tabs defaultValue="account">
+            <Tabs defaultValue="Transfer">
   <TabsList>
     <TabsTrigger value="Transfer">Transfer</TabsTrigger>
     <TabsTrigger value="Transfer History">Transfer History</TabsTrigger>

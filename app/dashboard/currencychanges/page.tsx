@@ -24,7 +24,7 @@ const page = () => {
       
 
 
-<Tabs defaultValue="account">
+<Tabs defaultValue="Exchange Rates">
   <TabsList>
     <TabsTrigger value="Exchange Rates">Exchange Rates</TabsTrigger>
     <TabsTrigger value="Currency Converter">Currency Converter</TabsTrigger>

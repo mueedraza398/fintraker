@@ -43,13 +43,13 @@ const Sidebar = () => {
           </a>
 
           {/* Withdraw */}
-          <Link href="dashboard/withdraw" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-300">
+          <Link href="/dashboard/withdraw" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-300">
             <FiRefreshCw />
             <span>Withdraw</span>
           </Link>
 
           {/* Currency Rates */}
-          <Link href="/dashborad/currencychanges" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-300">
+          <Link href="/dashboard/currencychanges" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-300">
             <LuChartColumnDecreasing />
             <span>Currency Rates</span>
           </Link>

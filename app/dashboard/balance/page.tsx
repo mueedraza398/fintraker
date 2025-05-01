@@ -29,7 +29,7 @@ const page = () => {
       
 
 
-<Tabs defaultValue="account">
+<Tabs defaultValue="All Balances">
   <TabsList>
     <TabsTrigger value="All Balances">All Balances</TabsTrigger>
     <TabsTrigger value="Quick Action">Quick Action</TabsTrigger>

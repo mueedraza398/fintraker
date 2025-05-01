@@ -26,7 +26,7 @@ const page = () => {
               </button>
             </div>
 
-            <Tabs defaultValue="account">
+            <Tabs defaultValue="All Transaction">
   <TabsList>
     <TabsTrigger value="All Transaction">All Transaction</TabsTrigger>
     <TabsTrigger value="Deposits">Deposits</TabsTrigger>
