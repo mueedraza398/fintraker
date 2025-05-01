@@ -22,34 +22,34 @@ const Sidebar = () => {
           </Link>
 
           {/* Balances - Active */}
-          <Link href="#" className="flex items-center gap-3 p-2 rounded-md  text-gray-600 font-medium">
+          <Link href="/dashboard/balance" className="flex items-center gap-3 p-2 rounded-md  text-gray-600 font-medium hover:bg-gray-300">
             <FiDollarSign />
             <span>Balances</span>
           </Link>
 
           {/* Transactions */}
-          <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+          <a href="/dashboard/transaction" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-300">
             <BsWallet />      <span>Transactions</span>
           </a>
 
           {/* Transfer */}
-          <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+          <a href="/dashboard/transfer" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-300">
             <IoIosSend />      <span>Transfer</span>
           </a>
 
           {/* Top Up */}
-          <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+          <a href="/dashboard/topup" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-300">
             <CiCirclePlus />     <span>Top Up</span>
           </a>
 
           {/* Withdraw */}
-          <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+          <Link href="dashboard/withdraw" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-300">
             <FiRefreshCw />
             <span>Withdraw</span>
           </Link>
 
           {/* Currency Rates */}
-          <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+          <Link href="/dashborad/currencychanges" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-300">
             <LuChartColumnDecreasing />
             <span>Currency Rates</span>
           </Link>
