@@ -1,0 +1,9 @@
+{
+  "/dashboard/balance/page": "app/dashboard/balance/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/topup/page": "app/dashboard/topup/page.js",
+  "/dashboard/transaction/page": "app/dashboard/transaction/page.js",
+  "/dashboard/transfer/page": "app/dashboard/transfer/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+}

@@ -12,60 +12,60 @@ import Link from 'next/link';
 const Sidebar = () => {
   return (
     <div>
-      <div className="flex flex-col p-4 w-64 min-h-screen bg-white border-r">
-  <nav className="flex flex-col gap-2">
-    
-    {/* Dashboard */}
-    <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
-    <CiHome />
-      <span>Dashboard</span>
-    </Link>
+      <div className="flex sticky top-0 flex-col p-4 w-64 min-h-screen bg-white border-r">
+        <nav className="flex flex-col gap-2">
 
-    {/* Balances - Active */}
-    <Link href="#" className="flex items-center gap-3 p-2 rounded-md  text-gray-600 font-medium">
-    <FiDollarSign />
-      <span>Balances</span>
-    </Link>
+          {/* Dashboard */}
+          <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+            <CiHome />
+            <span>Dashboard</span>
+          </Link>
 
-    {/* Transactions */}
-    <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
-    <BsWallet />      <span>Transactions</span>
-    </a>
+          {/* Balances - Active */}
+          <Link href="#" className="flex items-center gap-3 p-2 rounded-md  text-gray-600 font-medium">
+            <FiDollarSign />
+            <span>Balances</span>
+          </Link>
 
-    {/* Transfer */}
-    <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
-    <IoIosSend />      <span>Transfer</span>
-    </a>
+          {/* Transactions */}
+          <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+            <BsWallet />      <span>Transactions</span>
+          </a>
 
-    {/* Top Up */}
-    <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
-    <CiCirclePlus />     <span>Top Up</span>
-    </a>
+          {/* Transfer */}
+          <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+            <IoIosSend />      <span>Transfer</span>
+          </a>
 
-    {/* Withdraw */}
-    <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
-    <FiRefreshCw />
-      <span>Withdraw</span>
-    </Link>
+          {/* Top Up */}
+          <a href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+            <CiCirclePlus />     <span>Top Up</span>
+          </a>
 
-    {/* Currency Rates */}
-    <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
-    <LuChartColumnDecreasing />
-      <span>Currency Rates</span>
-    </Link>
+          {/* Withdraw */}
+          <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+            <FiRefreshCw />
+            <span>Withdraw</span>
+          </Link>
 
-    {/* Contacts */}
-    <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
-    <IoMdContacts />      <span>Contacts</span>
-    </Link>
+          {/* Currency Rates */}
+          <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+            <LuChartColumnDecreasing />
+            <span>Currency Rates</span>
+          </Link>
 
-    {/* Settings */}
-    <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
-    <CiSettings />      <span>Settings</span>
-    </Link>
+          {/* Contacts */}
+          <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+            <IoMdContacts />      <span>Contacts</span>
+          </Link>
 
-  </nav>
-</div>
+          {/* Settings */}
+          <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
+            <CiSettings />      <span>Settings</span>
+          </Link>
+
+        </nav>
+      </div>
 
     </div>
   )
