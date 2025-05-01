@@ -50,8 +50,8 @@ export default function RootLayout({
     </div>
 
     <div className="grid grid-cols-5 grid-rows-5 gap-4">
-    <div className="row-span-5"><Sidebar/></div>
-    <div className="col-span-4 row-span-5">{children}</div>
+    <div className="row-span-5 hidden md:block"><Sidebar/></div>
+    <div className="col-span-4 row-span-5 ">{children}</div>
 </div>
         
 

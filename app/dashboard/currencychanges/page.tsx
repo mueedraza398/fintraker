@@ -11,11 +11,10 @@ const page = () => {
     <div>
 
 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 px-3">
-      <div className='py-5'>
-        <h1 className="text-3xl font-bold tracking-tight">Balances</h1>
+      <div className='py-4 px-4'>
+        <h1 className="text-3xl font-bold tracking-tight">Currency Rates</h1>
         <p className="text-muted-foreground">
-          Manage your balances across different currencies
-        </p>
+        Monitor exchange rates and convert currencies</p>
       </div>
 
      
@@ -24,7 +23,7 @@ const page = () => {
       
 
 
-<Tabs defaultValue="Exchange Rates">
+<Tabs defaultValue="Exchange Rates" className='px-4'>
   <TabsList>
     <TabsTrigger value="Exchange Rates">Exchange Rates</TabsTrigger>
     <TabsTrigger value="Currency Converter">Currency Converter</TabsTrigger>

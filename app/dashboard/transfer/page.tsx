@@ -9,10 +9,10 @@ const page = () => {
   return (
     <div>
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-              <div>
+              <div className='py-4'>
                 <h1 className="text-3xl font-bold tracking-tight">Transfer Money</h1>
                 <p className="text-muted-foreground">
-                Send money to other users quickly and securely            </p>
+                Send money to other users quickly and securely</p>
               </div>
         
             </div>

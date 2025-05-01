@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <div>
       <div className="flex sticky top-0 flex-col p-4 w-64 min-h-screen bg-white border-r">
-        <nav className="flex flex-col gap-2">
+        <nav className="flex flex-col gap-2 ">
 
           {/* Dashboard */}
           <Link href="#" className="flex items-center gap-3 p-2 rounded-md text-gray-600 hover:bg-gray-100">
